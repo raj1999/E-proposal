@@ -1,0 +1,135 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body{
+    /* background: url("/images/ram.png") no-repeat white; */
+    /* background-position-x: center; */
+    /* background-position: inherit; */
+    /* background-size: cover; */
+    
+}
+.logo-img{
+    height: 80px;
+    width:  80px;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+.navbar{
+    height: 80px;
+    background-color: black !important;
+}
+.Name{
+    display: contents;
+}
+.nav-link{
+    color: white !important;
+}
+.nav-link:hover{
+    /* font-size: 18px; */
+    border-bottom: 2px solid green;
+}
+.e-h1{
+    color: white;
+    margin-left: 6%;
+}
+
+.card-body{
+    background-color: black;
+    color: #a09d9d;
+    font-family: 'Raleway', sans-serif;
+}
+.card-body h5{
+    font-weight: 600;
+}
+.nav-item{
+    margin: auto;
+}
+.navbar-nav{
+    width: 50%;
+}
+.image-three{
+    height: 500px;
+    position: relative;
+    width: 100%;
+}
+.image-three-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: lighter;
+    font-size: 350%;
+    color: black;
+    width: 100%;
+    text-align: center;
+}
+.card{
+    border: none;
+    border-right: 1px solid #313030;
+}
+
+
+.high{
+    color: white;
+}
+.inner-wrap{
+    text-align: center;
+    background: black;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+.sf-nav{
+    padding-top: 30px;
+    color: #5d5959;
+}
+.sf-nav a{
+    padding: 10px;
+    
+    text-decoration: none;
+    
+}
+.sf-nav a:hover{
+    color: rgb(224 219 219) !important;
+}
+.login-div{
+    display: contents;
+}
+.login-div a:hover{
+    color: #00b25a !important;
+}
+/* .sfn-login:hover{
+    color: #00b25a !important;
+} */
+.sfn-login{
+    color: #00b25a !important;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    /* background-image: url(/images/login.png)  ; */
+    background-repeat: no-repeat;
+    /* padding-left: 2.16667em !important; */
+    padding : 0px !important;
+    background-position: left center;
+}
+.sf-copyright{
+color : #5d5959 ;
+padding-top: 15px;
+}
+
+
+
+
+@media only screen and (min-width: 991px){
+    .e-h1{
+        width: -webkit-fill-available;
+        color: white;
+    }
+    .navbar-nav{
+        right: 0;
+        position: absolute;
+    }
+    }
